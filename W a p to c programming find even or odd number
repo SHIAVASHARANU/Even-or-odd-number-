@@ -1,0 +1,39 @@
+//simple C program that checks whether a given number is odd or even:
+
+INPUT:
+
+#include <stdio.h>
+int main()
+{
+int num;
+printf("Enter a number: ");
+scanf("%d", &num);
+checkOddEven(num);
+{
+    if (num % 2 == 0) 
+    {
+        printf("%d is even.\n", num);
+    }
+    else
+    {
+        printf("%d is odd.\n", num);
+    }
+}
+return 0;
+}
+
+OUTPUT:
+Enter a number: 10
+10 is even.
+
+Enter a number: 23
+23 is odd.
+
+Enter a number 0
+0 is even.
+
+Enter a number-12
+-12 is even.
+
+Enter a number _31
+-31 is odd.
